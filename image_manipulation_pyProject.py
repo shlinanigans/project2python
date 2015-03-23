@@ -1,5 +1,5 @@
-#from matplotlib.pyplot import figure, show
-#import numpy
+from matplotlib.pyplot import figure, show
+import numpy
 '''
 ZOOM IN & OUT CODE STUFF!
 '''
