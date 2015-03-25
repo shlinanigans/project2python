@@ -6,7 +6,7 @@ ZetCode PyQt4
 it draws a basic black lines using
 a pen style.
 
-Gabriel Zapata && Christpoher N. && Sherelien 
+Gabriel Zapata && Christpoher Negrete && Sherelien Haase
 
 """
 
@@ -67,11 +67,11 @@ if choice = 1:
             pen = QtGui.QPen(QtCore.Qt.black, 2, QtCore.Qt.SolidLine)
 
             qp.setPen(pen)
-            qp.drawLine(20, 40, 250, 40)
+            qp.drawLine(20, 40, 250, 40)#ratio that set pen 
 
-            pen.setStyle(QtCore.Qt.DashLine)
+            pen.setStyle(QtCore.Qt.DashLine)#utilizes functions for the style and shape of how the pen writes in files.
             qp.setPen(pen)
-            qp.drawLine(20, 80, 250, 80)
+            qp.drawLine(20, 80, 250, 80)#actually draws the line.
                   
             
     def main():
